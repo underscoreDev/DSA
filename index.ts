@@ -79,7 +79,7 @@ const fibonacci = (n: number): number[] => {
   }
   return array;
 };
-console.log(fibonacci(10));
+// console.log(fibonacci(10));
 
 //  Factorial of a number
 //  given an integer n, find the factorial of that integer
@@ -94,7 +94,7 @@ const factorial = (n: number): number => {
   }
   return num;
 };
-console.log(factorial(10));
+// console.log(factorial(10));
 
 // PRIME NUMBER
 const isPrime = (n: number): Boolean => {
@@ -106,4 +106,17 @@ const isPrime = (n: number): Boolean => {
   return false;
 };
 
-console.log(isPrime(87));
+// console.log(isPrime(97));
+
+// POWER OF TWO
+
+const isPowerOfTwo = (n: number): Boolean => {
+  for (let x = 0; x < n; x++) {
+    if (n === Math.pow(2, x)) {
+      return true;
+    }
+  }
+  return false;
+};
+
+console.log(isPowerOfTwo(5));
