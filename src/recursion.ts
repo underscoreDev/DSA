@@ -21,7 +21,7 @@ const fibonacci = (n: number): number => {
   return fibonacci(n - 1) + fibonacci(n - 2);
 };
 
-console.log(fibonacci(5));
+// console.log(fibonacci(5));
 
 // FACTORIAL
 const factorial = (n: number): number => {
@@ -31,4 +31,4 @@ const factorial = (n: number): number => {
   return n * factorial(n - 1);
 };
 
-console.log(factorial(5));
+// console.log(factorial(5));

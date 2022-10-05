@@ -1,4 +1,5 @@
 import "./recursion";
+import "./search_algorithms";
 /*
  What is an algorithm
 An algorithm is a set of well defined instructions to solve a particular problem
