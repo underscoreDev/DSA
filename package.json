@@ -2,9 +2,8 @@
   "name": "dsa",
   "version": "1.0.0",
   "description": "DSA TYPESCRIPT",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
-    "start": "node dist/index.js",
     "dev": "rm -rf dist && tsc-watch --noClear -p tsconfig.json --onSuccess \"node ./dist/index.js\""
   },
   "keywords": [

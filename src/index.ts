@@ -1,3 +1,4 @@
+import "./recursion";
 /*
  What is an algorithm
 An algorithm is a set of well defined instructions to solve a particular problem
@@ -119,4 +120,4 @@ const isPowerOfTwo = (n: number): Boolean => {
   return false;
 };
 
-console.log(isPowerOfTwo(5));
+// console.log(isPowerOfTwo(5));
